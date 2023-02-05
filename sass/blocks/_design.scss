@@ -1,0 +1,154 @@
+.design-cards{
+        display: flex;
+        
+        align-items: center;
+        margin-top: 160px;
+        gap: 20px;
+    }
+.web-hover{
+    background-image: url(../../images/hero1-bg.png);
+    background-size: cover;
+        background-repeat:no-repeat ;
+        text-align: center;
+}
+    .web{
+        
+        width: 541px;
+        height: 640px;
+        
+        padding-top: 20px;
+        &:hover{
+            cursor: pointer;
+        background: #dd3f3f8c;
+        opacity: 0.8;
+            
+        }
+    }
+    .design-title{
+        margin-top: 273px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        font-family: 'Jost';
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .design-text{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .app-hover{
+        background-image: url(../../images/hero2-bg.png);
+         background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .app-card{
+        text-align: center;
+        
+        width: 541px;
+        height: 308px;
+       padding-top: 20px;
+    }
+
+    .app-card:hover{
+        cursor: pointer;
+        background: #dd3f3f8c;
+        opacity: 1;
+        border-radius: 15px;
+    }
+     .grapic-hover{
+        margin-top: 15px;
+        background-size: cover;
+        background-image: url(../../images/hero3-bg.png);
+        background-repeat: no-repeat;
+        width: 541px;
+        height: 308px;
+        text-align: center;
+     }
+    .grapic-card:hover{
+            cursor: pointer;
+        background: #dd3f3f8c;
+        opacity: 1;
+        border-radius: 15px;
+        padding: 40px;
+        text-align: center;
+        
+    }
+    .app-title{
+        margin-top: 107px;
+        font-family: 'Jost';
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+        font-style: normal;
+    }
+    .grapic-title{
+        margin-top: 107px;
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+
+text-align: center;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+    }
+    .app-text{
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+    .grapic-text{
+        
+        font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 5px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+    }
+
+
+
+   
+
+
+
+
+
+
+
+

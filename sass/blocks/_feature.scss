@@ -1,0 +1,52 @@
+.good {
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        padding: 80px;
+        text-align: center;
+        align-items: center;
+        &--card-top {
+            border-radius: 50%;
+            padding: 85px;
+            background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+            mix-blend-mode: normal;
+            opacity: 0.7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &--card-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-title {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26px;
+                /* identical to box height, or 130% */
+
+                text-align: center;
+                letter-spacing: 5px;
+
+                color: #333136;
+
+            }
+            &-text{
+                width: 350px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                /* or 162% */
+                
+                text-align: center;
+                
+                color: #333136;
+                
+            }
+        }
+    }
+}

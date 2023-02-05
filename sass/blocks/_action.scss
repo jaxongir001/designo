@@ -1,0 +1,41 @@
+.action{
+    top: 2300px;
+    left: 800px;
+    position: absolute;
+    border-radius: 15px;
+    background: #E7816B;
+}
+.call-wrapper{
+    
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 32px 0px;
+}
+
+.title-call{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 40px;
+color: #FFFFFF;
+margin-top: 32px;
+}
+.call-text{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+width: 350px;
+}
+ .call-btn:hover{
+    background: #FFAD9B;
+    border-radius: 8px; 
+    color: #FFFFFF;
+    cursor: pointer;  
+ }

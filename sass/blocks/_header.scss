@@ -1,0 +1,36 @@
+header{
+  width: 100%;
+  position: fixed;
+}
+
+
+.nav{
+  
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s linear;
+    margin-top: 64px;
+    margin-bottom: 67px;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 42px;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+.item-links{
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #333136;
+}
